@@ -10,7 +10,7 @@
 用户名：（吃完饭）我要离开了。
 
 2026-08-21 18:48
-角色名：（把空餐盒整理好丢去分类垃圾桶）慢走。
+角色名：（把空餐盒丢进垃圾桶）慢走。
 ```
 
 ## 安装方法
@@ -18,6 +18,11 @@
 将 `chat-export-txt` 文件夹复制到 SillyTavern 的扩展目录：
 - **所有用户可用**：`SillyTavern/public/scripts/extensions/third-party/chat-export-txt/`
 - **仅当前用户**：`SillyTavern/data/<你的用户名>/extensions/chat-export-txt/`
+
+或者在线安装：
+```
+https://github.com/passers-by149/Chat-Export-TXT
+```
 
 刷新 SillyTavern 页面即可。
 
