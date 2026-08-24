@@ -17,7 +17,7 @@
 
 将 `chat-export-txt` 文件夹复制到 SillyTavern 的扩展目录：
 - **所有用户可用**：`SillyTavern/public/scripts/extensions/third-party/chat-export-txt/`
-- **仅当前用户**：`SillyTavern/data/<你的用户名>/extensions/chat-export-txt/`
+- **仅当前用户**：`SillyTavern/data/default user/extensions/chat-export-txt/`
 
 或者在线安装：
 ```
