@@ -1,0 +1,69 @@
+/* ============================================================
+   聊天记录导出TXT - 样式文件
+   ============================================================ */
+
+/* 描述文字 */
+.chat_export_txt_desc {
+    font-size: 13px;
+    color: var(--text);
+    margin-bottom: 4px;
+    line-height: 1.6;
+}
+
+/* 区域分隔符 */
+.chat_export_txt_separator {
+    height: 1px;
+    background: linear-gradient(to right, transparent, color-mix(in srgb, var(--border) 60%, transparent), transparent);
+    margin: 14px 0;
+}
+
+/* 区域标签 */
+.chat_export_txt_section_label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--border);
+}
+
+/* 设置行 */
+.chat_export_txt_row {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.chat_export_txt_row label {
+    font-size: 13px;
+    color: var(--text);
+}
+
+/* 文件名输入框 */
+.chat_export_txt_row input[type="text"] {
+    flex: 1;
+}
+
+/* 提示文字 */
+.chat_export_txt_hint {
+    font-size: 11px;
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin: 4px 0 8px 0;
+    padding: 6px 8px;
+    background: var(--black-50);
+    border-radius: 4px;
+    border: 1px solid var(--border);
+}
+
+/* 导出按钮 */
+.chat_export_txt_btn {
+    transition: all 0.2s ease;
+}
+
+.chat_export_txt_btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}

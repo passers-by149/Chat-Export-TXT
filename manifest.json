@@ -1,0 +1,13 @@
+{
+    "display_name": "聊天记录导出TXT",
+    "name": "chat-export-txt",
+    "js": "index.js",
+    "css": "style.css",
+    "author": "Trae",
+    "version": "1.9.0",
+    "description": "SillyTavern一键导出聊天记录为 TXT 格式，带时间戳、日期筛选",
+    "homePage": "",
+    "auto_update": false,
+    "loading_order": 10,
+    "minimum_client_version": "1.10.0"
+}
